@@ -1,0 +1,134 @@
+*{padding: 0;margin: 0;}
+.col-lg-12,.col-lg-6{padding-right: 0;padding-left: 0;}
+.paddingT{padding-top: 50px;}
+.centrar{text-align: center;}
+.uno{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.dos{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.tres{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.centrado:hover{
+    transform: translateY(-40px);
+    transition: 0.7s;
+}
+.centrado{
+	position: absolute;
+    overflow: unset;
+}
+.un{
+    top: 50%;
+    left: 30%;
+}
+.do{
+    top: 50%;
+    left: 20%;
+}
+.tre{
+    top: 50%;
+    left: 40%;
+}
+.sk{
+	top: 50%;
+    left: 45%;
+}
+.zp{
+	top: 50%;
+    left: 40%;
+}
+.row div div a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.row div div a:hover{
+    font-size: 1.9rem;
+}
+.formulario_promocion{
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 10%;
+    border: solid black 3px
+}
+.texto{
+    text-align: center;
+}
+.mail{
+    margin: 15px;
+    width: 60%;
+}
+.btnsub{
+    margin: 15px;
+}
+/* Footer*/
+footer{
+    background-color: rgba(128, 128, 128, 0.215);
+}
+.ig img{
+    position: relative;
+    width: 30px;
+    left: 43%;
+    top: 32px;
+}
+.face img{
+    position: relative;
+    width: 30px;
+    left: 55%;
+}
+.f{
+    text-align: center;
+    line-height: 4rem;
+    color: black;
+}
+p a{
+    color: black;
+    text-decoration: none;
+}
+.medios_pago{
+    background-color: rgba(128, 128, 128, 0.215);
+    padding: 0.5rem;
+}
+.medios_pago img{
+    display: inline-block;
+    width: 50px;
+    margin: 0.5rem;
+}
+/*---------------------------------------*/
+/* Logo de WhatsApp flotante */
+.wsp{
+    position: fixed;
+    bottom: 0;
+    left: 1030px;
+}
+.logo{
+    width: 50px;
+}
+
+/* vista desktop */
+@media only screen and (min-width: 1024px){
+.navbar-expand-lg .navbar-collapse{justify-content: flex-end;}
+
+
+/* vista mobile */
+@media screen and (max-width: 767px){
+	.formulario_promocion{
+        width: 100%;
+    }
+    .mail{
+        width: 90%;
+    }
+}
+
+}
